@@ -17,7 +17,7 @@ import logoMMT from '@/images/logos/mmt.png'
 import logoCarnegie from '@/images/logos/carnegie.jpeg'
 import logoPrinceton from '@/images/logos/princeton.png'
 import logoNasa from '@/images/logos/nasa.png'
-import image1 from '@/images/photos/image-1.jpg'
+import image1 from '@/images/photos/image-1.png'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.png'
 import image4 from '@/images/photos/image-4.png'
@@ -161,7 +161,7 @@ function Resume() {
       title: 'Hubble Fellow',
       logo: logoNasa,
       start: '2009',
-      end: '2012'
+      end: '2012',
     },
     {
       company: 'Carnegie Observatories',
@@ -203,8 +203,9 @@ function Resume() {
               <dt className="sr-only">Date</dt>
               <dd
                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${role.end.label ?? role.end
-                  }`}
+                aria-label={`${role.start.label ?? role.start} until ${
+                  role.end.label ?? role.end
+                }`}
               >
                 <time dateTime={role.start.dateTime ?? role.start}>
                   {role.start.label ?? role.start}
@@ -257,9 +258,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Dr. Richard Cool
-        </title>
+        <title>Dr. Richard Cool</title>
         <meta
           name="description"
           content="Richard Cool is a data scientist and visualization engeerin at Netflix."
@@ -268,12 +267,14 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Helping unleash the power of data with custom viz, analytic tooling, and predicitive modeling.
+            Helping unleash the power of data with custom viz, analytic tooling,
+            and predicitive modeling.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I'm Richard, a data scientist and visualization engineer at Netflix.
-            I'm passionate about empowering businesses in making better decisions and
-            achiving their goals through actionable insights and predictive analytics.
+            I'm passionate about empowering businesses in making better
+            decisions and achiving their goals through actionable insights and
+            predictive analytics.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
