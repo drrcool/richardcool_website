@@ -22,7 +22,6 @@ export function Footer() {
                                 <NavLink href="/thoughts">Thoughts</NavLink>
                                 <NavLink href="/projects">Projects</NavLink>
                                 <NavLink href="/tools">Tools</NavLink>
-                                <NavLink href="/contact">Contact</NavLink>
                             </div>
                             <p className="text-sm text-zinc-400 dark:text-zinc-500">
                                 &copy; {new Date().getFullYear()} Spencer Sharp. All rights reserved.
