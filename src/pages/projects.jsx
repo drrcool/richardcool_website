@@ -14,42 +14,42 @@ const projects = [
         name: 'Quantifying Member Experience',
         description:
             "A Netflix, I've lead an iniative to quantify the overall product experience from our members' perspectives.",
-        link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+        link: { href: '', label: '' },
         logo: logoPlanetaria,
     },
     {
         name: 'Custom Visualization Tools',
         description:
             'I create responsive web apps with React, Druid, and Trino to allow stakeholders to access and analyze data surrounding streaming video quality. ',
-        link: { href: '#', label: 'github.com' },
+        link: { href: '', label: '' },
         logo: logoAnimaginary,
     },
     {
         name: 'Early Anomoly Detection',
         description:
             'I created Jigsaw to notify stakeholders if a new firmware update pushed by one of our numerous consumer electronics partners has had an adverse effect on the typical Netlix quality received by our members.',
-        link: { href: '#', label: 'github.com' },
+        link: { href: '', label: '' },
         logo: logoHelioStream,
     },
     {
         name: 'Forecasting',
         description:
             'Using simple growth models and domain-driven heuristics, I created forecasts for the future device ecosystem used to watch Netflix.',
-        link: { href: '#', label: 'github.com' },
+        link: { href: '', label: '' },
         logo: logoCosmos,
     },
     {
         name: 'Operational Monitoring via Analytic Tooling',
         description:
             "Throughout my time at netflix, I've helped stakeholders monitor and respond a myriad of operational metrics to ensure we deliver the best experience possible to our members and can respond to problems before the impact is great.",
-        link: { href: '#', label: 'github.com' },
+        link: { href: '', label: '' },
         logo: logoOpenShuttle,
     },
     {
         name: 'PRIMUS: ADD THE REST OF THE ACRONYM',
         description:
             'As part of my graduate and postdoctoral work, I executed the PRIMUS survey to probe the evolution of galaxies over the last half of cosmic history.  We used a novel PRISM to obtain distance measurements for thousands of galaxies at once over many nights observing with the Magellan telescopes in Chile.',
-        link: { href: '#', label: 'github.com' },
+        link: { href: '', label: '' },
         logo: logoOpenShuttle,
     },
 ];
@@ -73,8 +73,8 @@ export default function Projects() {
                 <meta name="description" content="Things I’ve made trying to put my dent in the universe." />
             </Head>
             <SimpleLayout
-                title="Things I’ve made trying to put my dent in the universe."
-                intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+                title="A selection of projects I've worked on."
+                intro="Due to the nature of my work, I can't share all the projects I've worked on or all of the details of each.  Here is a sample of some the projects I've worked on."
             >
                 <ul role="list" className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project) => (
