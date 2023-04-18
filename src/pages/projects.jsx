@@ -3,47 +3,46 @@ import Image from 'next/image';
 
 import { Card } from '@/components/Card';
 import { SimpleLayout } from '@/components/SimpleLayout';
-import logoAnimaginary from '@/images/logos/animaginary.svg';
-import logoCosmos from '@/images/logos/cosmos.svg';
-import logoHelioStream from '@/images/logos/helio-stream.svg';
+import logoNetflix from '@/images/logos/netflix.png';
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg';
-import logoPlanetaria from '@/images/logos/planetaria.svg';
-
 const projects = [
     {
         name: 'Quantifying Member Experience',
         description:
             "A Netflix, I've lead an iniative to quantify the overall product experience from our members' perspectives.",
         link: { href: '', label: '' },
-        logo: logoPlanetaria,
+        logo: logoNetflix,
     },
     {
         name: 'Custom Visualization Tools',
         description:
             'I create responsive web apps with React, Druid, and Trino to allow stakeholders to access and analyze data surrounding streaming video quality. ',
         link: { href: '', label: '' },
-        logo: logoAnimaginary,
+        logo: logoNetflix,
     },
     {
         name: 'Early Anomoly Detection',
         description:
             'I created Jigsaw to notify stakeholders if a new firmware update pushed by one of our numerous consumer electronics partners has had an adverse effect on the typical Netlix quality received by our members.',
-        link: { href: '', label: '' },
-        logo: logoHelioStream,
+        link: {
+            href: 'https://netflixtechblog.com/detecting-performance-anomalies-in-external-firmware-deployments-ed41b1bfcf46',
+            label: 'Netflix Tech Blog',
+        },
+        logo: logoNetflix,
     },
     {
         name: 'Forecasting',
         description:
             'Using simple growth models and domain-driven heuristics, I created forecasts for the future device ecosystem used to watch Netflix.',
         link: { href: '', label: '' },
-        logo: logoCosmos,
+        logo: logoNetflix,
     },
     {
         name: 'Operational Monitoring via Analytic Tooling',
         description:
             "Throughout my time at netflix, I've helped stakeholders monitor and respond a myriad of operational metrics to ensure we deliver the best experience possible to our members and can respond to problems before the impact is great.",
         link: { href: '', label: '' },
-        logo: logoOpenShuttle,
+        logo: logoNetflix,
     },
     {
         name: 'PRIMUS: ADD THE REST OF THE ACRONYM',
