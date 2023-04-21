@@ -56,14 +56,14 @@ export default function About() {
                     </div>
                     <div className="lg:order-first lg:row-span-2">
                         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                            I'm Richard Cool. I live in the SF Bay Area where I help companies make data-driven
+                            I&aposm Richard Cool. I live in the SF Bay Area where I help companies make data-driven
                             decisions.
                         </h1>
                         <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                             <p>
-                                I've loved being understanding how things work for as long as I can remember. I remember
-                                writing my first simple code in elementary school. I loved taking basic ideas and
-                                building up more complicated ideas from there, which drew me to math and physics in
+                                I&aposve loved being understanding how things work for as long as I can remember. I
+                                remember writing my first simple code in elementary school. I loved taking basic ideas
+                                and building up more complicated ideas from there, which drew me to math and physics in
                                 college. Trying to understand how we got here lead me to study astrophysics in graduate
                                 school focusing on statstical methods for analyzing very large data sets gathered by
                                 large telescope surveys.
@@ -76,7 +76,7 @@ export default function About() {
                             </p>
                             <p>
                                 Outside of work, I spend a lot of time with my dog, relaxing while watching movies with
-                                my partner. I dabble in a variety of hobbies; I'm trying to learned the piano, I'm an
+                                my partner. I dabble in a variety of hobbies; Im trying to learned the piano, I&aposm an
                                 on-again-off-again gamer, and I love to bake and cook. The science of baking speaks to
                                 me and helps me relax and meditate after a long day.
                             </p>
